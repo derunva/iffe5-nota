@@ -1,0 +1,11 @@
+.copyright{
+	display: flex;
+	&__icon{
+		align-self: flex-start;
+		margin-right: 15px;
+	}
+	&__info{
+		color: #868686;
+		padding: 15px 0px;
+	}
+}
