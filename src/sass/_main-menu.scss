@@ -46,7 +46,13 @@
   }
   li:nth-child(3){
     a{
-      padding: 27px 0;
+      padding: 26px;
+      text-align: center;
     }
+  }
+}
+@media(min-width: 640px){
+  .main-menu{
+    padding: 0px 20px
   }
 }
