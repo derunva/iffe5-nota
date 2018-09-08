@@ -1,17 +1,6 @@
-.main-menu
-  ul
+- 
+  var menu= ['Главная', 'Нотариус', 'Нотариальные действия', 'Тарифы', 'Контакты'];
+ul.main-menu
+  each item in menu
     li
-      a(href="#")
-        | Главная                                                
-    li
-      a(href="#")
-        | Нотариус 
-    li
-      a(href="#")
-        | Тарифы
-    li
-      a(href="#")
-        | Контакты
-    li
-      a(href="#")
-        | Нотариальные действия
+      a(href="#")= item
