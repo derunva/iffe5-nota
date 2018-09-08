@@ -1,20 +1,20 @@
 .logo{
-  padding-top: 50px;
-  padding-left: 27px;
-  .logo_title{
-      font-size: 16px;
-      color: #5b6166;
-      font-style: normal;
-     h1{
+  .logo-text{     
+     .logo-text__bigger{
       font-size: 36px;
       color: #5b6166;
       font-style: normal;
      }
-     p{
+     .logo-text__big{
       font-size: 26px;
       color: #5b6166;
       font-style: normal;
      }   
+     .logo-text__litle{
+      font-size: 16px;
+      color: #5b6166;
+      font-style: normal;
+     }
   }
   .logo__img{
     float: left;
