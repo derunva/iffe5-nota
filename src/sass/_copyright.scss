@@ -1,8 +1,32 @@
 .copyright{
 	display: flex;
 	&__icon{
-		align-self: flex-start;
 		margin-right: 15px;
+		position: relative;
+		width: 31px;
+		height: 31px;
+		background-color: #b8b8b8;
+		border: 1px solid #000;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__icon:before{
+		position: absolute;
+		content: "";
+		background-color: #b8b8b8;
+		width: 17px;
+		height: 17px;
+		border-top: 3px solid white;
+		border-right: 3px solid white;
+	}
+	&__icon:after{
+		position: absolute;
+		content: "";
+		background-color: #fff;
+		width: 3px;
+		height: 25px;
+		transform: rotate(45deg);
 	}
 	&__info{
 		color: #868686;
@@ -13,6 +37,7 @@
 		text-align: right;
 		&__icon{
 			margin-right: 0;
+    	margin-left: auto;
 		}
 	} 
 }
