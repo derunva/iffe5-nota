@@ -1,11 +1,8 @@
-.phones{
-	width: 230px;
-	height: 70px;
-	border: 1px solid black;
-	font-size: 14px;	
+.phones > a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
 }
-table.contacts{
-    border: 2px solid green;
-    align-items: center;
-    vertical-align: middle;
+.phones > a > span{
+    font-size: 12px;
 }
