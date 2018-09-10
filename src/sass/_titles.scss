@@ -1,0 +1,15 @@
+.title{
+  font-family: Arial, Halvetica, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  &_grey{
+    color: #5d6166;
+  }
+  &_red{
+    color: #d5543b;
+    font-size: 26px;
+  }
+}
