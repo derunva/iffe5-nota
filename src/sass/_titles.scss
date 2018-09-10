@@ -4,14 +4,12 @@
   text-transform: uppercase;
   font-style: normal;
   font-weight: normal;
-  &_documents{
+  color: #000000;
+  &_grey{
     color: #5d6166;
   }
-  &_office{
+  &_red{
     color: #d5543b;
     font-size: 26px;
-  }
-  &_links{
-    color: #000000;
   }
 }
