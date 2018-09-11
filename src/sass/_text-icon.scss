@@ -1,40 +1,39 @@
-.message,.register{
-  &__icon,{
+.icon-row{
+  margin-bottom: 30px;
+}
+.icon-email,.icon-keyboard,.icon-watch,.icon-location{
     float: left;
     margin-right: 15px;
-    } 
-  &__text{
-    padding-top: 5px;
-    margin-bottom: 30px;
-    color: #5d6166;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  &__text a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #5d6166;
-    font-size: 14px;
-  }
+} 
+.icon-watch{
+  margin: 4px 20px 0px 0px;
 }
-.register{
-  &__icon{
-    margin-left: 5px;
-  }
-  &__text span{
-    text-decoration: underline;
-  }
+.icon-location{
+  margin: 13px 25px 0px 0px; 
 }
-.schedule,.location{
-  &__icon{
-    float: left;
-    margin-right: 15px
-  }
-  &__text{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 30px;
-    color: #5d6166;
-    font-size: 14px;
-  }
+.icon__text{
+  padding-top: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #5d6166;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icon__text a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #5d6166;
+}
+.icon__text span{
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.icon-keyboard{
+  margin-left: 5px;
+}
+.icon__work,.icon__weekend,.icon__city,.icon__street,.icon__house{
+  text-transform: none;
+}
+.icon__house{
+  margin-left: 45px;
 }

@@ -1,0 +1,29 @@
+.icon {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.icon-email {
+    width: 33px;
+    height: 24px;
+    background-position: -5px -5px;
+}
+
+.icon-keyboard {
+    width: 24px;
+    height: 32px;
+    background-position: -48px -5px;
+}
+
+.icon-location {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -39px;
+}
+
+.icon-watch {
+    width: 35px;
+    height: 33px;
+    background-position: -82px -5px;
+}
