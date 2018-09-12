@@ -1,22 +1,16 @@
 .header
   .wrapper
     .row
-      .col-tablet-1-2
-        .col-phablet
-          .header__logo
-            | Тут буде лого
-        .row.row-phablet
-          .col-phablet
-            .header__phones
-              | Тут будуть телефони
-          .col-tablet-1-2.col-phablet.col-t
-            .header__text-and-icon
-              | Іконка + текст
-            .header__text-and-icon
-              | Іконка + текст
-          .col-t.col-t_bottom
-            .col-tablet
-              .header__text-and-icon
-                | Іконка + текст
-              .header__text-and-icon
-                | Іконка + текст
+      .col-logo
+        | Logo will be here
+      .col-phones
+        include phones
+      .col-icon-text
+        .text-icon icon plus text
+        .text-icon icon plus text
+      .col-bottom-icon-text
+        .row
+          .col-icon-text-b
+            | icon plus text
+          .col-icon-text-b
+            | icon plus text
