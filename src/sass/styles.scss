@@ -19,21 +19,31 @@
 }
 
 
+@import 'typographic';
+
+
+
 
 @import 'mixin';
+
 
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+@import 'header';
 
-@import 'typographic';
 @import 'phones';
 @import 'about';
 @import 'main-menu';
 @import 'titles';
+
 @import 'side-menu';
 
 @import 'copyright';
+
+
+@import 'footer';
+@import 'grid';
 

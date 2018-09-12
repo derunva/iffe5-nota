@@ -1,0 +1,50 @@
+.header{
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.wrapper{
+  max-width: 980px;
+  margin: 0 auto;
+}
+.message,.register{
+  &__icon,{
+    float: left;
+    margin-right: 15px;
+    } 
+  &__text{
+    padding-top: 5px;
+    margin-bottom: 30px;
+    color: #5d6166;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  &__text a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #5d6166;
+    font-size: 14px;
+  }
+}
+.register{
+  &__icon{
+    margin-left: 5px;
+  }
+  &__text span{
+    text-decoration: underline;
+  }
+}
+.schedule,.location{
+  &__icon{
+    float: left;
+    margin-right: 15px
+  }
+  &__text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    color: #5d6166;
+    font-size: 14px;
+  }
+}
