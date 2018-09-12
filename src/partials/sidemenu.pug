@@ -1,0 +1,39 @@
+-
+	var articles=[
+		{
+			title : 'Наследственные дела',
+			link: 'http://circle.dvatest.in.ua/matt/app/files/flowers.zip'
+		},
+		{
+			title : 'Согласие на выезд ребенка',
+			link: 'http://circle.dvatest.in.ua/matt/app/files/kolesov.zip'
+		},
+		{
+			title : 'Договоры дарения',
+			link: 'http://circle.dvatest.in.ua/matt/app/files/trped.jpg'
+		},
+		{
+			title : 'Договоры купли-продажи недвижимости',
+			link: 'http://circle.dvatest.in.ua/matt/app/files/minecraft.zip'
+		},
+		{
+			title : 'Отчуждение долей',
+			link: '#'
+		},
+		{
+			title : 'Рента',
+			link: '#'
+		},
+		{
+			title : 'Документы при регистрации в фнс',
+			link: '#'
+		},
+		{
+			title : 'Доверенность, согласия',
+			link: '#'
+		}
+	]
+ul.side-menu
+	each item, index in articles
+		li
+			a(href=item.link)=item.title
