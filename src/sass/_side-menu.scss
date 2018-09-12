@@ -4,4 +4,49 @@
       color: #5b6166;
       font-style: normal;
   }
+  .side-menu__content{
+      font-size: 17px;
+      color: #5b6166;
+      font-style: normal;
+      padding-left: 20px;  
+  }
+  .side-menu__content li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .side-menu__content li:after{
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    transform: rotate(51deg);
+    left: 10px;
+    border: 1px solid white;
+    border-top: 7px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+  }
+  .side-menu__content li:before{
+    content: '';
+    position: absolute;
+    background: #FC0000;
+    width: 10px;
+    height: 9px;
+    transform: rotate(320deg);
+    left: 10px;
+  }
+    @media screen and (min-width:200px)
+    {
+        .desktopOnly{
+            display:none;
+        }
+    }
+    @media screen and (min-width:980px)
+    {
+        .desktopOnly{
+            display:inline;
+        }
+    }
+
 }

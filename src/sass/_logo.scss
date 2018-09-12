@@ -20,4 +20,9 @@
     float: left;
     margin-right: 38px;
   }
+     @media screen and (max-width:480px){
+        .logo__img{
+            display:none;
+        }
+    }
 }       
