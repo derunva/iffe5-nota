@@ -1,0 +1,11 @@
+.header{
+  padding: 50px 0;
+  &__line{
+    height: 5px;
+    background-color: #5d6166;
+    margin: 1px;
+    @include breakpoint(desktop){
+      margin: 0 20px;
+    }
+  }
+}

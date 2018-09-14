@@ -1,4 +1,13 @@
 .main-menu{
+  &:after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  @include breakpoint(desktop){
+    padding: 0 25px;
+  }
   li{
     float: left;
     width: 33.33%;
@@ -26,8 +35,10 @@
         padding: 31px 20px;
       }
       @include breakpoint(tablet){
-        padding: 15px 0;
-        
+        padding: 16px 0;
+      }
+      @include breakpoint(desktop){
+        padding: 26px;
       }
     }
     @include breakpoint(tablet){
@@ -38,39 +49,23 @@
     float: left;
     a{
       padding: 15px 0;
+      @include breakpoint(tablet){
+        padding: 25px 0;
+      }
+      @include breakpoint(desktop){
+        padding: 35px 0;
+      }
     }
   }
   li:nth-child(2), li:first-child{
-    
     a{
       padding: 15px 0;
+      @include breakpoint(tablet){
+        padding: 25px 0;
+      }
+      @include breakpoint(desktop){
+        padding: 35px 0;
+      }
     }
   }
 }
-
-// @media(min-width: 620px){
-//   .main-menu{
-//     padding: 0px 20px;
-//     li:nth-child(3){
-//       a{
-//         padding: 31px;
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
-// @media(min-width: 769px){
-//   .main-menu{
-//     li{
-//       a{
-//         padding: 35px 0;
-//       }
-//     }
-//     li:nth-child(3){
-//       a{
-//         padding: 26px 10px;
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
