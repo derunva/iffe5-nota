@@ -19,10 +19,21 @@
   .logo__img{
     float: left;
     margin-right: 38px;
+      @include breakpoint(xxs){
+        display:none;
+      }
+      @include breakpoint(xs){
+        display:none;
+      }
+      @include breakpoint(sm){
+        display:none;
+      }
+      @include breakpoint(md){
+        display:none;
+      }
+      @include breakpoint(lg){
+        display:block;
+      }
   }
-     @media screen and (max-width:480px){
-        .logo__img{
-            display:none;
-        }
-    }
+
 }       
