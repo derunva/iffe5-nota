@@ -3,14 +3,47 @@
   .wrapper
     .row
       .col-logo
-        | Logo will be here
+        .logo
+          .logo__img
+              img(src="img/logo.png")
+          .logo-text
+            .logo-text__bigger
+              span КАПИТОНОВА  
+            .logo-text__big
+              span ТАТЬЯНА СЕРГЕЕВНА
+            .logo-text__litle
+              span НОТАРИУС ГОРОДА МОСКВЫ
       .col-phones
         include phones
       .col-icon-text
-        .text-icon icon plus text
-        .text-icon icon plus text
+        .text-icon 
+          .icon-row
+            .icon-row__icon
+              .icon.icon-email
+            .icon-row__text
+              a(href="#")
+                |отправить документ
+        .text-icon 
+          .icon-row
+            .icon-row__icon
+              .icon.icon-keyboard
+            .icon-row__text
+              a(href="#")
+                <span>Записаться 
+              |на прием 
       .col-bottom-icon-text
         .col-icon-text-b
-          | icon plus text
+          .icon-row
+            .icon-row__icon
+              .icon.icon-clock
+            .icon-row__text-info
+              |пн - пт: 10:00 – 18:00;<br>  
+              |сб, вс - выходные дни
         .col-icon-text-b
-          | icon plus text
+          .icon-row
+            .icon-row__icon
+              .icon.icon-location
+            .icon-row__text-info
+              |г. Москва,<br> 
+              |улица Большая Ордынка,<br>   
+              |д. 54, стр. 1
