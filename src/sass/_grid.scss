@@ -48,7 +48,17 @@
   }
   .row{
     @include breakpoint(tablet){
+      display: flex;
       flex-direction: column;
+      min-width: 100%;
+      max-width: 100%;
     }
+  }
+}
+.col-icon-text-b{
+  width: 50%;
+   @include breakpoint(tablet){
+    min-width: 100%;
+    max-width: 100%;
   }
 }
