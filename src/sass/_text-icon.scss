@@ -2,33 +2,30 @@
   display: flex;
   align-items: center;
 }
-.icon__text{
+.icon-row__text{
   font-size: 14px;
   color: #5d6166;
   text-transform: uppercase;
 }
-.icon__text a{
+.icon-row__text a{
   text-decoration: none;
   color: #5d6166;
 }
-.icon__text span{
+.icon-row__text span{
   text-decoration: underline;
 }
-.icon__text-clock,.icon__text-location{
+.icon-row__text-clock,.icon-row__text-location{
   font-size: 14px;
   color: #5d6166;
 }
-.icon__icon{
+.icon-row__icon{
   margin: 15px;
 }
 @include breakpoint(mobileonly){
-  .icon.icon{
+  .icon-row__icon{
     display: none;
     }
-  .icon__text a{
+  .icon-row__text a{
     text-decoration: underline;
-  }
-  .icon__text-clock{
-    margin-bottom: 10px;
   }
 }
