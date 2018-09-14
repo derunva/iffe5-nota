@@ -20,6 +20,7 @@
     "gulp-sass": "^4.0.1",
     "gulp-server-livereload": "^1.9.2"
   },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/derunva/iffe5-nota.git"

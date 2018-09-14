@@ -1,9 +1,52 @@
-@import 'mixin';
+
+
+ @mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (min-width: 70em) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (min-width: 64em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (min-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
+
+  }
+}
+
+
 @import 'typographic';
-@import 'logo'; 
-@import 'side-menu';
+
+
+
+
+@import 'mixin';
+@import 'variables';
+@import 'grid';
+
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+@import 'logo'; 
+@import 'text-icon';
+@import 'stylesheet';
+@import 'header';
+
+@import 'phones';
+@import 'about';
+@import 'main-menu';
+@import 'side-menu';
+@import 'titles';
+/*@import 'copyright';*/
+
+@import 'footer';
+@import 'grid';
+
