@@ -34,10 +34,14 @@
 	box-sizing: border-box;
 }
 @import 'header';
-@import 'typographic';
+
 @import 'phones';
 @import 'about';
 @import 'main-menu';
+@import 'side-menu';
 @import 'titles';
+/*@import 'copyright';*/
+
 @import 'footer';
 @import 'grid';
+
