@@ -1,0 +1,27 @@
+.logo{
+  .logo-text{     
+     .logo-text__bigger{
+      font-size: 36px;
+      color: #5b6166;
+      font-style: normal;
+     }
+     .logo-text__big{
+      font-size: 26px;
+      color: #5b6166;
+      font-style: normal;
+     }   
+     .logo-text__litle{
+      font-size: 16px;
+      color: #5b6166;
+      font-style: normal;
+     }
+  }
+  .logo__img{
+    float: left;
+    margin-right: 38px;
+    display:none;
+      @include breakpoint(desktop){
+        display:block;
+      }
+  }
+}       

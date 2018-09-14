@@ -1,4 +1,5 @@
 
+
  @mixin breakpoint($point) {
    @if $point == desktop {
      @media (min-width: 70em) { @content ; }
@@ -28,12 +29,13 @@
 @import 'variables';
 @import 'grid';
 
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
+@import 'logo'; 
 @import 'text-icon';
 @import 'stylesheet';
 @import 'header';
