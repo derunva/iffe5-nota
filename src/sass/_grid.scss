@@ -45,6 +45,7 @@
   @include breakpoint(tablet){
     min-width: 30%;
     max-width: 30%;
+    flex-direction: column;
   }
   .row{
     @include breakpoint(tablet){
@@ -60,5 +61,15 @@
    @include breakpoint(tablet){
     min-width: 100%;
     max-width: 100%;
+    margin: 0 $gutter/2*-1;
+  }
+  &:first-child{
+    margin-left: $gutter/2*-1;
+  }
+  &:nth-child(2){
+    margin-left: $gutter/2;
+    @include breakpoint(tablet){
+      margin-left: $gutter/2*-1;
+    }
   }
 }
