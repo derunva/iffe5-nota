@@ -1,0 +1,33 @@
+.icon-row{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.icon-row__text{
+  font-size: 14px;
+  color: #5d6166;
+  text-transform: uppercase;
+  flex: 1 auto;
+}
+.icon-row__text a{
+  text-decoration: none;
+  color: #5d6166;
+}
+.icon-row__text span{
+  text-decoration: underline;
+}
+.icon-row__text-info{
+  font-size: 14px;
+  color: #5d6166;
+}
+.icon-row__icon{
+  flex: 0 55px;
+}
+@include breakpoint(mobileonly){
+  .icon-row__icon{
+    display: none;
+    }
+  .icon-row__text a{
+    text-decoration: underline;
+  }
+}
